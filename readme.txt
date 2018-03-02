@@ -44,6 +44,7 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 = 1.2.2 =
 
 * Included alt tag in background image to comply with Web Content Accessibility Guidelines (WCAG). The background image is considered decoration, and so an empty alt tag (i.e. alt="") is an acceptable way to allow assistive technology to ignore the image.
+* Update: Improved translatable POT file.
 * Update: Added subtle upsell (dismissable) messaging in the plugin to inform users of the pro version of this plugin.
 
 = 1.2.1 =
