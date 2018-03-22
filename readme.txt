@@ -3,10 +3,10 @@ Contributors: scott.deluzio
 Author: scott.deluzio
 Author URI: http://scottdeluzio.com
 Plugin URI: https://fullscreenbackgroundimages.com
-Tags: background, fullscreen, image, bg image, full screen
+Tags: background, fullscreen, image, bg image, full screen, background image
 Requires at least: 3.6
 Tested up to: 4.9.4
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 
 This plugin provides a simple way to set an automatically scaled full screen background image.
 
@@ -41,11 +41,15 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 
 == Changelog ==
 
+= 1.2.3 =
+
+* Included support for [Instant Images](https://wordpress.org/plugins/instant-images/) plugin. This provides users with an easy way to search for and upload images from Unsplash.com locally to their WordPress site. The Instant Images button is now included on the Appearance > Fullscreen BG Image settings page. This requires that the Instant Images plugin be installed and active.
+
 = 1.2.2 =
 
 * Included alt tag in background image to comply with Web Content Accessibility Guidelines (WCAG). The background image is considered decoration, and so an empty alt tag (i.e. alt="") is an acceptable way to allow assistive technology to ignore the image.
 * Update: Improved translatable POT file.
-* Update: Added subtle upsell (dismissable) messaging in the plugin to inform users of the pro version of this plugin.
+* Update: Added subtle upsell (dismissible) messaging in the plugin to inform users of the pro version of this plugin.
 
 = 1.2.1 =
 
@@ -68,3 +72,8 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 * Did some general code cleanup and improvement
 
 
+== Upgrade Notice ==
+
+= 1.2.3 =
+
+* Included support for [Instant Images](https://wordpress.org/plugins/instant-images/) plugin. This provides users with an easy way to search for and upload images from Unsplash.com locally to their WordPress site. The Instant Images button is now included on the Appearance > Fullscreen BG Image settings page. This requires that the Instant Images plugin be installed and active.

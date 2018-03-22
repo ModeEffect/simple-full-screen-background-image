@@ -22,7 +22,7 @@ function sfsb_admin_page() {
 
 				<p>
 					<input id="fsb_settings[image]" name="fsb_settings[image]" type="text" class="upload_field" value="<?php echo $sfsb_options['image']; ?>"/>
-					<input class="upload_image_button button-secondary" type="button" value="<?php _e( 'Choose Image', 'simple-full-screen-background-image' ); ?>"/>
+					<input class="upload_image_button button-secondary" type="button" value="<?php _e( 'Choose Image', 'simple-full-screen-background-image' ); ?>"/><?php do_action( 'sfsb_additional_image_sources' ); ?>
 					<label class="description" for="fsb_settings[image]"><?php _e( 'This image will be applied to the background of your website', 'simple-full-screen-background-image' ); ?></label>
 				</p>
 
@@ -45,7 +45,13 @@ function sfsb_admin_page() {
 <?php
 }
 function sfsb_init_admin() {
-	add_submenu_page( 'themes.php', __( 'Full Screen Background Image', 'simple-full-screen-background-image' ), __( 'Fullscreen BG Image', 'simple-full-screen-background-image' ), 'manage_options', 'full-screen-background', 'sfsb_admin_page' );
+	$sfsb_admin = add_submenu_page( 'themes.php', __( 'Full Screen Background Image', 'simple-full-screen-background-image' ), __( 'Fullscreen BG Image', 'simple-full-screen-background-image' ), 'manage_options', 'full-screen-background', 'sfsb_admin_page' );
+
+	/* Adding support for Instant Images plugin */
+	if ( class_exists( 'InstantImages' ) ){
+		add_action( 'admin_head-' . $sfsb_admin, 'instant_img_media_popup_content' );
+		add_action( 'sfsb_additional_image_sources', 'instant_img_media_popup' );
+	}
 }
 add_action('admin_menu', 'sfsb_init_admin');
 

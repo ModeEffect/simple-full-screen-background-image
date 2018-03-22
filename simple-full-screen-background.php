@@ -2,7 +2,7 @@
 /*
 Plugin Name: Simple Full Screen Background Image
 Description: Easily set an automatically scaled full-screen background images
-Version: 1.2.2
+Version: 1.2.3
 Author: Scott DeLuzio
 Author URI: http://scottdeluzio.com
 */
