@@ -1,12 +1,12 @@
 === Simple Full Screen Background Image ===
 Contributors: scott.deluzio
 Author: scott.deluzio
-Author URI: http://scottdeluzio.com
+Author URI: https://scottdeluzio.com
 Plugin URI: https://fullscreenbackgroundimages.com
-Tags: background, fullscreen, image, bg image, full screen, background image
+Tags: background, fullscreen, background image, full screen, image
 Requires at least: 3.6
-Tested up to: 4.9.4
-Stable tag: 1.2.3
+Tested up to: 4.9.7
+Stable tag: 1.2.4
 
 This plugin provides a simple way to set an automatically scaled full screen background image.
 
@@ -41,6 +41,12 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 
 == Changelog ==
 
+= 1.2.4 =
+
+* Added automatic deactivation when the pro version of this plugin is installed as the two plugins should not be used together.
+* Automatic deactivation migrates Simple Full Screen Background Image to Pro's settings so the site's layout won't be changed by deactivating the Simple Full Screen Background Image plugin.
+* Added uninstall.php to clean up when the plugin is deleted.
+
 = 1.2.3 =
 
 * Included support for [Instant Images](https://wordpress.org/plugins/instant-images/) plugin. This provides users with an easy way to search for and upload images from Unsplash.com locally to their WordPress site. The Instant Images button is now included on the Appearance > Fullscreen BG Image settings page. This requires that the Instant Images plugin be installed and active.
@@ -74,6 +80,8 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 
 == Upgrade Notice ==
 
-= 1.2.3 =
+= 1.2.4 =
 
-* Included support for [Instant Images](https://wordpress.org/plugins/instant-images/) plugin. This provides users with an easy way to search for and upload images from Unsplash.com locally to their WordPress site. The Instant Images button is now included on the Appearance > Fullscreen BG Image settings page. This requires that the Instant Images plugin be installed and active.
+* Added automatic deactivation when the pro version of this plugin is installed as the two plugins should not be used together.
+* Automatic deactivation migrates Simple Full Screen Background Image to Pro's settings so the site's layout won't be changed by deactivating the Simple Full Screen Background Image plugin.
+* Added uninstall.php to clean up when the plugin is deleted.
