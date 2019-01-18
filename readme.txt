@@ -5,7 +5,7 @@ Author URI: https://scottdeluzio.com
 Plugin URI: https://fullscreenbackgroundimages.com
 Tags: background, fullscreen, background image, full screen, image
 Requires at least: 3.6
-Tested up to: 4.9.7
+Tested up to: 5.0.3
 Stable tag: 1.2.4
 
 This plugin provides a simple way to set an automatically scaled full screen background image.
