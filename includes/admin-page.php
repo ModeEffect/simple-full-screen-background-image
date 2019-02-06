@@ -53,7 +53,7 @@ function sfsb_init_admin() {
 		add_action( 'sfsb_additional_image_sources', 'instant_img_media_popup' );
 	}
 }
-add_action('admin_menu', 'sfsb_init_admin');
+add_action( 'admin_menu', 'sfsb_init_admin' );
 
 // register the plugin settings
 function sfsb_register_settings() {
