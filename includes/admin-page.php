@@ -21,7 +21,7 @@ function sfsb_admin_page() {
 				<h4><?php _e( 'Choose Your Image', 'simple-full-screen-background-image' ); ?></h4>
 
 				<p>
-					<input id="fsb_settings[image]" name="fsb_settings[image]" type="text" class="upload_field" value="<?php echo $sfsb_options['image']; ?>"/>
+					<input id="fsb_settings[image]" name="fsb_settings[image]" type="text" class="upload_field" value="<?php if ( is_array( $sfsb_options ) && isset( $sfsb_options['image'] ) ) { echo $sfsb_options['image']; } else { echo ''; } ?>"/>
 					<input class="upload_image_button button-secondary" type="button" value="<?php _e( 'Choose Image', 'simple-full-screen-background-image' ); ?>"/><?php do_action( 'sfsb_additional_image_sources' ); ?>
 					<label class="description" for="fsb_settings[image]"><?php _e( 'This image will be applied to the background of your website', 'simple-full-screen-background-image' ); ?></label>
 				</p>
