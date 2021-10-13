@@ -3,8 +3,8 @@
 Plugin Name: Simple Full Screen Background Image
 Plugin URI:  https://fullscreenbackgroundimages.com/
 Description: Easily set an automatically scaled full-screen background image
-Version: 1.2.9
-Author: Scott DeLuzio
+Version: 1.2.10
+Author: AMP-MODE
 Author URI: https://amplifyplugins.com
 */
 

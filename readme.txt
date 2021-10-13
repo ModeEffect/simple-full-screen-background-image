@@ -1,12 +1,11 @@
 === Simple Full Screen Background Image ===
-Contributors: scott.deluzio
-Author: scott.deluzio
+Contributors: scott.deluzio, ampmode
 Author URI: https://amplifyplugins.com
 Plugin URI: https://fullscreenbackgroundimages.com
 Tags: background, fullscreen, background image, full screen, image
 Requires at least: 3.6
-Tested up to: 5.5.1
-Stable tag: 1.2.9
+Tested up to: 5.8.1
+Stable tag: 1.2.10
 
 This plugin provides a simple way to set an automatically scaled full screen background image.
 
@@ -40,6 +39,10 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 3. Sample frontend
 
 == Changelog ==
+= 1.2.10 =
+* Updated tested up to version.
+* Added Contributors.
+
 = 1.2.9 =
 * Fix: When first installed, the plugin was expecting a value to be displayed where none existed, which threw a PHP notice. Plugin now checks to see if the correct value exists before attempting to display it.
 
@@ -87,5 +90,6 @@ Learn more about the Pro version [here](https://fullscreenbackgroundimages.com/d
 
 
 == Upgrade Notice ==
-= 1.2.9 =
-* Fix: When first installed, the plugin was expecting a value to be displayed where none existed, which threw a PHP notice. Plugin now checks to see if the correct value exists before attempting to display it.
+= 1.2.10 =
+* Updated tested up to version.
+* Added Contributors.
