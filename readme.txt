@@ -4,7 +4,7 @@ Author URI: https://amplifyplugins.com
 Plugin URI: https://fullscreenbackgroundimages.com
 Tags: background, fullscreen, background image, full screen, image
 Requires at least: 3.6
-Tested up to: 5.8.1
+Tested up to: 6.1.1
 Stable tag: 1.2.10
 
 This plugin provides a simple way to set an automatically scaled full screen background image.
